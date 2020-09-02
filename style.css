@@ -1,0 +1,94 @@
+.body{
+    background-color: #22cfee98;
+}
+.container-fluid{
+    text-align: center !important;
+    width: 400px !important;
+}
+.answer{
+    border-radius: 25px;
+    background-color: #3d5bf198;
+    margin-top:60px;
+    margin-bottom:20px;
+    padding-top: 30px;
+}
+.question-box{
+    padding-bottom: 30px;
+}
+.title{
+    color: white;
+    font-family: Helvetica;
+}
+.input-box{
+    border: none;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+.input-box:focus{
+    outline: none;
+}
+.add-btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 6px;
+    color: #0e153a;
+    padding: 4px 10px;
+}
+.add-btn:focus{
+    outline: none;
+}
+.add-btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.ul-box{
+    color: #0e153a;
+}
+.ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: start; 
+    background-color: white;
+    border-radius: 25px; 
+}
+.ul li{
+    /* margin: 10px 0; */
+    padding-left: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    /* background-color: white; */
+    /* border-radius: 25px;  */
+}
+.edit-btn{
+    border: none;
+    background-color: #ffffff;
+    color: rgb(33, 189, 33);
+}
+.edit-btn:focus{
+    outline: none;
+}
+.edit-btn:hover{
+    color:  rgb(2, 255, 2);
+}
+.del-btn{
+    border: none;
+    background-color: #ffffff;
+    color: rgb(187, 55, 55);
+    margin-right: 15px;
+}
+.del-btn:focus{
+    outline: none;
+}
+.del-btn:hover{
+    color: rgb(240, 0, 0);
+}
+
+
+
+/* <style type = 'text/css'>
+    .flex { display: flex; flex-direction: row; justify-content: flex-end; width: 800px; border: 1px solid gray; padding: 4px;}
+    .flex div { border: 1px solid gray; padding: 4px; background: #A4F2D8; font-family: verdana; font-size: 19px; text-align: center; color: gray; }
+</style>
+<div class = 'flex'>
+    <div style = 'width: 200px; height: 30px'>1</div>
+</div> */
